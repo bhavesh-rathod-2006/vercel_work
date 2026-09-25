@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel</title>
+    <style>
+        #main {
+
+            border: 2px solid black;
+
+        }
+
+        #nav {
+            display: flex;
+            gap: 30%;
+            /* justify-content: space-around; */
+            /* border-radius: 30px; */
+            /* border: 2px solid black; */
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgb(45, 45, 227);
+        }
+
+        #leftnav {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #centernav {
+            display: flex;
+            gap: 30%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+
+        }
+
+        #home:hover {
+
+            background-color: gray;
+
+
+        }
+
+        #product:hover {
+            background-color: gray;
+
+        }
+
+        #contact:hover {
+            background-color: gray;
+
+        }
+
+        #account:hover {
+
+            background-color: gray;
+        }
+
+        #rightnav {
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 8%;
+
+        }
+
+        #btn1 {
+            background-color: yellow;
+            border-radius: 27px;
+            padding-left: 60%;
+            padding-right: 60%;
+        }
+
+        #btn1:hover {
+            background-color: red;
+            color: aliceblue;
+            font-weight: bolder;
+        }
+
+        .container {
+            display: flex;
+
+            height: 500px;
+            background-image: linear-gradient(rgb(139, 169, 233), rgb(192, 181, 181), rgb(169, 109, 109));
+
+        }
+
+        .text {
+            width: 35%;
+         
+        }
+
+        .logo {
+            margin-left: 3%;
+            color: aliceblue;
+            font-size: x-large;
+            margin-top: 10%;
+
+        }
+
+        .headline {
+            margin-top: 21%;
+            font-size: xx-large;
+            margin-left: 3%;
+            line-height: 180%;
+
+        }
+
+        .para {
+            margin: 5%;
+
+
+        }
+
+        .button {
+
+            margin-left: 30%;
+
+
+
+        }
+
+        #btn {
+            border-radius: 27px;
+            padding-left: 10%;
+            padding-right: 10%;
+            background-color: yellow;
+            margin-top: 10%;
+        }
+
+        #btn:hover {
+            background-color: red;
+            color: aliceblue;
+            font-weight: bolder;
+        }
+
+
+        .left {
+            background-image: url(https://share.google/EXKd5lu5RgVtj7Rz5);
+            background-size: contain;
+            border: 2px solid black;
+            width: 19%;
+            margin-right: 10px;
+            margin-top: 60px;
+            height: 400px;
+            border-radius: 5%;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYSJumf8o43k59_9jMBClByE8Dt5E_5vFwUvJ7qVtX-URTY-3D-x2Wu_A&s=10);
+            background-size: cover;
+            transition: 0.5s;
+
+
+        }
+
+
+        .left:hover {
+            background-image: url(https://share.google/EXKd5lu5RgVtj7Rz5);
+            background-size: contain;
+            border: 3px solid black;
+            width: 22%;
+            margin-right: 9px;
+            margin-top: 50px;
+            height: 420px;
+            border-radius: 5%;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYSJumf8o43k59_9jMBClByE8Dt5E_5vFwUvJ7qVtX-URTY-3D-x2Wu_A&s=10);
+            background-size: cover;
+            box-shadow: 0px 0px 50px blue;
+
+        }
+
+        #stateleft{
+            margin-top:150%;
+            padding-left:25%;
+            background-color: black;
+            font-size: x-large;
+            font-weight: bolder;
+            color: white;
+        }
+
+        .middle {
+            background-image: url(https://wallcastle.com/wp-content/uploads/2023/03/1-zoom-9-1000x1000.jpg);
+            background-size: contain;
+            background-size: contain;
+            border: 2px solid black;
+            width: 19%;
+            margin-right: 10px;
+            margin-top: 30px;
+            height: 400px;
+            border-radius: 5%;
+            transition: 0.5s;
+        }
+
+
+        .middle:hover {
+            background-image: url(https://wallcastle.com/wp-content/uploads/2023/03/1-zoom-9-1000x1000.jpg);
+
+            background-size: contain;
+            border: 3px solid black;
+            width: 22%;
+            margin-right: 9px;
+            margin-top: 20px;
+            height: 420px;
+            border-radius: 5%;
+            box-shadow: 0px 0px 50px blue;
+
+
+        }
+
+          #statemiddle{
+            margin-top:150%;
+            padding-left:29%;
+            background-color: black;
+            font-size: x-large;
+            font-weight: bolder;
+            color: white;
+        }
+
+
+        .right {
+            background-image: url(https://plus.unsplash.com/premium_photo-1711434824963-ca894373272e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww);
+            background-size: cover;
+            border: 2px solid black;
+            width: 19%;
+            margin-top: 60px;
+            height: 400px;
+            border-radius: 5%;
+            transition: 0.5s;
+            
+
+        }
+
+        .right:hover {
+           background-image: url(https://plus.unsplash.com/premium_photo-1711434824963-ca894373272e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww);
+            background-size: cover;
+            border: 3px solid black;
+            width: 22%;
+            margin-right: 9px;
+            margin-top: 50px;
+            height: 420px;
+            border-radius: 5%;
+box-shadow: 0px 0px 50px blue;
+        }
+
+
+          #stateright{
+            margin-top:150%;
+            padding-left:25%;
+            background-color: black;
+            font-size: x-large;
+            font-weight: bolder;
+            color: white;
+        }
+
+        #footer {
+            background-color: rgb(45, 45, 227);
+            
+        }
+   
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav">
+            <div id="leftnav">TRAVEL.</div>
+            <div id="centernav">
+                <div id="home" title="this is a home age button">Home</div>
+                <div id="product">Product</div>
+                <div id="contact">Contact</div>
+                <div id="account">Account</div>
+            </div>
+            <div id="rightnav">
+                <button id="btn1">login</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text">
+                <div class="logo">
+                    <h2>travel.</h2>
+                </div>
+                <div class="headline">
+                    <h1 id="h1">Must see <br> Places</h1>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, illo ex. Magni ipsa ut totam
+                        deleniti!</p>
+                </div>
+                <div class="button"><button id="btn">Explore</button></div>
+            </div>
+            <div class="left">
+                <p id="stateleft">Rajsthan</p>
+            </div>
+            <div class="middle">
+                <p id="statemiddle">Gujrat</p>
+            </div>
+            <div class="right">
+                <p id="stateright">Kashmir</p>
+            </div>
+
+        </div>
+        <div id="footer">
+            <marquee behavior="" direction="">This page is about Nature view ,Nature is beautiful and full of life. It
+                gives us fresh air, water, and food to survive. Trees, flowers, rivers, and animals are all important
+                parts of nature. We should protect nature and keep our environment clean. </marquee>
+        </div>
+    </div>
+
+</body>
+
+</html>
